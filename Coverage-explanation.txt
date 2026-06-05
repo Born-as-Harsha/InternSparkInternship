@@ -1,0 +1,7 @@
+ALU_8_BIT:
+
+The functionality of the 8-bit ALU was verified using both directed and random test methodologies to ensure correct operation across different input conditions. Directed testing was performed initially by applying predefined input values and executing all ALU operations corresponding to opcodes `000` to `111`. These tests verified arithmetic operations such as addition and subtraction, logical operations including AND, OR, XOR, and NOT, as well as left-shift and right-shift functions.
+
+To improve verification coverage, random testing was also implemented using randomly generated input operands (`A` and `B`) and random opcode values. Multiple random test iterations were executed to expose the ALU to a wide range of input combinations and operating conditions. This approach helped validate the design behavior beyond predefined cases and increased confidence in functional correctness.
+
+Waveform analysis was performed using Vivado simulation tools to observe signal transitions and verify output responses for each operation. The simulation results confirmed that the ALU generated correct outputs for both directed and random test scenarios. Overall, the verification process provided comprehensive functional coverage and demonstrated correct implementation of arithmetic, logical, and shift operations within the 8-bit ALU design.
