@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "E:/xlinix/2025.2/Vivado/data/rsb/busdef" \
+"../../../../../STA_Timing.v" \
+"../../../../../STA_Timing_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

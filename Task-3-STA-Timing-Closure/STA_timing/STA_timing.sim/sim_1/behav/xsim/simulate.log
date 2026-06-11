@@ -1,0 +1,13 @@
+Time resolution is 1 ps
+Time=0 a=  0 b=  0 c=  0 result=    0
+Time=20000 a= 10 b=  5 c=  2 result=    0
+Time=30000 a= 20 b=  4 c=  6 result=    0
+Time=35000 a= 20 b=  4 c=  6 result=    2
+Time=40000 a= 15 b=  8 c=  3 result=    2
+Time=45000 a= 15 b=  8 c=  3 result=    6
+Time=50000 a= 30 b= 10 c=  5 result=    6
+Time=55000 a= 30 b= 10 c=  5 result=  123
+Time=65000 a= 30 b= 10 c=  5 result=  341
+Time=75000 a= 30 b= 10 c=  5 result=  281
+Time=85000 a= 30 b= 10 c=  5 result= 1005
+$finish called at time : 100 ns : File "D:/internspark-internship/Task-3/STA_Timing_tb.v" Line 69
